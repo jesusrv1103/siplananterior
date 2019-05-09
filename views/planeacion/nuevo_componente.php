@@ -42,7 +42,7 @@ unset($conexion);
                 </div>
                 <div class="col-md-2">
                   <label>Ponderación</label>
-                  <input type="number" id="ponderacion" class="form-control" required>
+                  <input type="number" id="ponderacion" class="form-control" required step="0.001">
                 </div>
               </div>
             </div>

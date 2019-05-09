@@ -44,8 +44,8 @@ while($medida = $componentes->fetch_array()){
                 </div>
                 <div class="col-md-2">
                   <label>Ponderación</label>
-                  <input type="number" id="ponderacion" class="form-control" required placeholder="Menor o igual a <?php echo ((100 - $total) + $componente[5]); ?>" step="0.1"
-                  min="1" max="<?php echo ((100 - $total) + $componente[5]); ?>"  value="<?php echo $componente[5]; ?>">
+                  <input type="number" id="ponderacion" class="form-control" required placeholder="Menor o igual a <?php echo ((100 - $total) + $componente[5]); ?>"
+                  min="0.001" max="<?php echo ((100 - $total) + $componente[5]); ?>"  value="<?php echo $componente[5]; ?>">
                 </div>
               </div>
             </div>
